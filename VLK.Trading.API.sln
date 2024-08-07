@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Trading.API", "VLK.Trading.API\VLK.Trading.API.csproj", "{0D6732A6-A193-4977-A4A5-1E8321F34FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Trading.Infrastructure", "VLK.Trading.Infrastructure\VLK.Trading.Infrastructure.csproj", "{9D1F34A3-A4F1-4D55-81CA-68589757A50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Trading.Domain", "VLK.Trading.Domain\VLK.Trading.Domain.csproj", "{4F34B652-5F10-4BF8-BF26-C72771180957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Trading.Application", "VLK.Trading.Application\VLK.Trading.Application.csproj", "{8255C10E-A6D0-46EC-995D-15B00F21C4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DAD0E151-25A1-431E-A264-6EBAB23C975F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Trading.Domain.Tests", "VLK.Trading.Domain.Tests\VLK.Trading.Domain.Tests.csproj", "{739A2A6E-7A72-407D-84B9-7AC6E3412D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLK.Domain.Application.Tests", "VLK.Domain.Application.Tests\VLK.Domain.Application.Tests.csproj", "{C2A148AA-55C8-46D4-BD8B-351EB982B940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6732A6-A193-4977-A4A5-1E8321F34FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6732A6-A193-4977-A4A5-1E8321F34FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6732A6-A193-4977-A4A5-1E8321F34FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6732A6-A193-4977-A4A5-1E8321F34FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1F34A3-A4F1-4D55-81CA-68589757A50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1F34A3-A4F1-4D55-81CA-68589757A50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1F34A3-A4F1-4D55-81CA-68589757A50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1F34A3-A4F1-4D55-81CA-68589757A50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F34B652-5F10-4BF8-BF26-C72771180957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F34B652-5F10-4BF8-BF26-C72771180957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F34B652-5F10-4BF8-BF26-C72771180957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F34B652-5F10-4BF8-BF26-C72771180957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8255C10E-A6D0-46EC-995D-15B00F21C4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8255C10E-A6D0-46EC-995D-15B00F21C4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8255C10E-A6D0-46EC-995D-15B00F21C4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8255C10E-A6D0-46EC-995D-15B00F21C4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739A2A6E-7A72-407D-84B9-7AC6E3412D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739A2A6E-7A72-407D-84B9-7AC6E3412D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739A2A6E-7A72-407D-84B9-7AC6E3412D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739A2A6E-7A72-407D-84B9-7AC6E3412D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A148AA-55C8-46D4-BD8B-351EB982B940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A148AA-55C8-46D4-BD8B-351EB982B940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A148AA-55C8-46D4-BD8B-351EB982B940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A148AA-55C8-46D4-BD8B-351EB982B940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{739A2A6E-7A72-407D-84B9-7AC6E3412D76} = {DAD0E151-25A1-431E-A264-6EBAB23C975F}
+		{C2A148AA-55C8-46D4-BD8B-351EB982B940} = {DAD0E151-25A1-431E-A264-6EBAB23C975F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2035BE5E-CC52-49BE-82FF-D62C3ABABE07}
+	EndGlobalSection
+EndGlobal
